@@ -22,7 +22,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("/screenplay")
+@RequestMapping("/screen")
 public class ScreenplayController {
 
     @Autowired
