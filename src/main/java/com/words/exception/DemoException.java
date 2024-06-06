@@ -1,4 +1,4 @@
-package com.demo.exception;
+package com.words.exception;
 
 public class DemoException {
 }

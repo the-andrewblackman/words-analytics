@@ -1,4 +1,4 @@
-package com.demo.service;
+package com.words.service;
 
 
 import edu.stanford.nlp.ling.CoreLabel;

@@ -1,4 +1,4 @@
-package com.demo.entity;
+package com.words.entity;
 
 import java.util.Arrays;
 import java.util.HashSet;

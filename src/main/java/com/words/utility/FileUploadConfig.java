@@ -1,4 +1,4 @@
-package com.demo.utility;
+package com.words.utility;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
