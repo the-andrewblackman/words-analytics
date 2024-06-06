@@ -13,7 +13,7 @@ import java.util.*;
 
 @RestController
 @RequestMapping("/screen")
-public class ScreenplayController {
+public class WordsController {
 
     @Autowired
     private PosTaggingService posTaggingService;
