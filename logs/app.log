@@ -1,0 +1,1404 @@
+2024-06-05 13:48:36 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 50554 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 13:48:36 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 13:48:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 13:48:43 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 13:48:43 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 13:48:43 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 13:48:43 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 13:48:43 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5455 ms
+2024-06-05 13:48:44 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 13:48:44 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 13:48:44 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 13:48:46 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [2.5 sec].
+2024-06-05 13:48:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 13:48:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 13:48:48 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 13.919 seconds (JVM running for 14.806)
+2024-06-05 13:49:05 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 13:49:05 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 13:49:05 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-06-05 13:50:44 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 50573 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 13:50:44 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 13:50:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 13:50:46 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 13:50:46 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 13:50:46 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 13:50:46 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 13:50:46 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1553 ms
+2024-06-05 13:50:46 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 13:50:46 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 13:50:46 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 13:50:47 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [1.0 sec].
+2024-06-05 13:50:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 13:50:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 13:50:48 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.328 seconds (JVM running for 6.156)
+2024-06-05 13:51:02 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 13:51:02 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 13:51:02 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2024-06-05 13:52:36 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 50599 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 13:52:36 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 13:52:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 13:52:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 13:52:38 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 13:52:38 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 13:52:38 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 13:52:38 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1859 ms
+2024-06-05 13:52:38 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 13:52:38 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 13:52:38 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 13:52:39 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 13:52:40 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 13:52:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 13:52:40 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.367 seconds (JVM running for 6.791)
+2024-06-05 13:52:48 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 13:52:48 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 13:52:48 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-05 13:54:45 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 50621 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 13:54:45 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 13:54:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 13:54:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 13:54:47 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 13:54:47 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 13:54:47 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 13:54:47 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1840 ms
+2024-06-05 13:54:47 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 13:54:47 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 13:54:47 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 13:54:48 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 13:54:49 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 13:54:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 13:54:49 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.617 seconds (JVM running for 6.556)
+2024-06-05 13:54:56 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 13:54:56 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 13:54:56 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2024-06-05 13:55:39 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 50634 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 13:55:39 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 13:55:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 13:55:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 13:55:41 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 13:55:41 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 13:55:41 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 13:55:41 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1649 ms
+2024-06-05 13:55:41 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 13:55:41 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 13:55:41 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 13:55:42 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.9 sec].
+2024-06-05 13:55:43 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 13:55:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 13:55:43 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.387 seconds (JVM running for 6.28)
+2024-06-05 13:55:51 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 13:55:51 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 13:55:51 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-05 13:56:18 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 50653 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 13:56:18 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 13:56:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 13:56:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 13:56:20 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 13:56:20 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 13:56:20 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 13:56:20 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2096 ms
+2024-06-05 13:56:20 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 13:56:20 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 13:56:20 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 13:56:21 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [1.2 sec].
+2024-06-05 13:56:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 13:56:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 13:56:23 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 6.943 seconds (JVM running for 9.07)
+2024-06-05 13:58:42 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 50662 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 13:58:42 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 13:58:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 13:58:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 13:58:44 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 13:58:44 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 13:58:44 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 13:58:44 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1865 ms
+2024-06-05 13:58:44 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 13:58:44 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 13:58:44 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 13:58:45 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 13:58:46 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 13:58:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 13:58:46 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.48 seconds (JVM running for 6.296)
+2024-06-05 13:58:58 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 13:58:58 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 13:58:58 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-05 13:59:28 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 50669 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 13:59:28 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 13:59:30 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 13:59:30 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 13:59:30 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 13:59:30 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 13:59:30 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 13:59:30 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1787 ms
+2024-06-05 13:59:30 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 13:59:30 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 13:59:30 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 13:59:31 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 13:59:32 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 13:59:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 13:59:32 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.477 seconds (JVM running for 6.361)
+2024-06-05 13:59:39 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 13:59:39 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 13:59:39 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2024-06-05 14:01:59 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 50689 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 14:01:59 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 14:02:01 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 14:02:01 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 14:02:01 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 14:02:01 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 14:02:01 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 14:02:01 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1732 ms
+2024-06-05 14:02:01 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 14:02:01 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 14:02:01 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 14:02:02 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [1.0 sec].
+2024-06-05 14:02:03 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 14:02:03 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 14:02:03 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.534 seconds (JVM running for 6.339)
+2024-06-05 14:02:09 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 14:02:09 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 14:02:09 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-05 14:04:25 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 50712 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 14:04:25 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 14:04:27 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 14:04:27 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 14:04:27 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 14:04:27 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 14:04:27 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 14:04:27 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1755 ms
+2024-06-05 14:04:27 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 14:04:27 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 14:04:27 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 14:04:28 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.9 sec].
+2024-06-05 14:04:29 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 14:04:29 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 14:04:29 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.556 seconds (JVM running for 6.414)
+2024-06-05 14:04:37 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 14:04:37 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 14:04:37 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-05 14:07:04 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 50742 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 14:07:04 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 14:07:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 14:07:06 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 14:07:06 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 14:07:06 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 14:07:06 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 14:07:06 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1868 ms
+2024-06-05 14:07:06 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 14:07:06 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 14:07:06 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 14:07:07 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.7 sec].
+2024-06-05 14:07:08 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 14:07:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 14:07:08 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.325 seconds (JVM running for 6.141)
+2024-06-05 14:07:13 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 14:07:13 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 14:07:13 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2024-06-05 14:10:09 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 50773 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 14:10:09 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 14:10:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 14:10:11 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 14:10:11 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 14:10:11 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 14:10:11 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 14:10:11 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1795 ms
+2024-06-05 14:10:11 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 14:10:11 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 14:10:11 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 14:10:12 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [1.0 sec].
+2024-06-05 14:10:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 14:10:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 14:10:13 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.556 seconds (JVM running for 6.556)
+2024-06-05 14:10:27 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 14:10:27 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 14:10:27 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-05 14:12:59 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 50786 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 14:12:59 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 14:13:01 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 14:13:01 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 14:13:01 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 14:13:01 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 14:13:01 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 14:13:01 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1699 ms
+2024-06-05 14:13:01 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 14:13:01 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 14:13:01 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 14:13:04 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [3.1 sec].
+2024-06-05 14:13:07 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 14:13:07 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 14:13:07 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 9.451 seconds (JVM running for 10.913)
+2024-06-05 14:13:21 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 14:13:21 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 14:13:21 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-05 14:20:03 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 50837 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 14:20:03 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 14:20:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 14:20:09 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 14:20:09 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 14:20:09 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 14:20:09 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 14:20:09 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6315 ms
+2024-06-05 14:20:10 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 14:20:10 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 14:20:10 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 14:20:13 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [2.6 sec].
+2024-06-05 14:20:15 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 14:20:16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 14:20:16 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 13.995 seconds (JVM running for 14.89)
+2024-06-05 14:20:19 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 14:20:19 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 14:20:19 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-05 14:23:09 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 50867 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 14:23:09 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 14:23:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 14:23:11 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 14:23:11 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 14:23:11 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 14:23:12 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 14:23:12 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2042 ms
+2024-06-05 14:23:13 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 14:23:13 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 14:23:13 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 14:23:17 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [3.7 sec].
+2024-06-05 14:23:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 14:23:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 14:23:21 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 12.538 seconds (JVM running for 13.399)
+2024-06-05 14:23:44 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 14:23:44 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 14:23:44 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-05 15:02:42 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 50997 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 15:02:42 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 15:02:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 15:02:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:02:44 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 15:02:44 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 15:02:44 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 15:02:44 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1646 ms
+2024-06-05 15:02:44 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 15:02:44 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 15:02:44 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 15:02:45 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 15:02:46 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:02:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 15:02:46 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.274 seconds (JVM running for 6.123)
+2024-06-05 15:03:04 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 15:03:04 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 15:03:04 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-05 15:05:14 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51013 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 15:05:14 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 15:05:16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 15:05:16 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:05:16 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 15:05:16 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 15:05:16 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 15:05:16 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2107 ms
+2024-06-05 15:05:16 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 15:05:16 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 15:05:16 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 15:05:17 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 15:05:18 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:05:18 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 15:05:18 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.784 seconds (JVM running for 6.629)
+2024-06-05 15:05:28 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 15:05:28 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 15:05:28 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2024-06-05 15:09:08 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51033 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 15:09:08 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 15:09:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 15:09:09 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:09:09 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 15:09:09 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 15:09:09 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 15:09:09 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1440 ms
+2024-06-05 15:09:09 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 15:09:09 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 15:09:09 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 15:09:10 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 15:09:11 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:09:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 15:09:11 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.041 seconds (JVM running for 5.957)
+2024-06-05 15:09:19 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 15:09:19 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 15:09:19 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2024-06-05 15:09:40 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51040 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 15:09:40 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 15:09:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 15:09:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:09:41 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 15:09:41 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 15:09:42 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 15:09:42 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1559 ms
+2024-06-05 15:09:42 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 15:09:42 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 15:09:42 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 15:09:43 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 15:09:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:09:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 15:09:44 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.214 seconds (JVM running for 6.01)
+2024-06-05 15:09:48 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 15:09:48 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 15:09:48 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-05 15:11:00 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51052 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 15:11:00 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 15:11:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 15:11:02 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:11:02 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 15:11:02 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 15:11:02 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 15:11:02 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1725 ms
+2024-06-05 15:11:03 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 15:11:03 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 15:11:03 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 15:11:06 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [2.4 sec].
+2024-06-05 15:11:07 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:11:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 15:11:09 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 10.265 seconds (JVM running for 11.214)
+2024-06-05 15:11:09 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 15:11:09 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 15:11:09 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2024-06-05 15:23:07 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51135 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 15:23:07 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 15:23:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 15:23:09 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:23:09 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 15:23:09 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 15:23:09 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 15:23:09 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1542 ms
+2024-06-05 15:23:09 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 15:23:09 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 15:23:09 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 15:23:10 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.9 sec].
+2024-06-05 15:23:11 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:23:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 15:23:11 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.236 seconds (JVM running for 6.111)
+2024-06-05 15:24:08 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 15:24:08 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 15:24:08 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-05 15:27:17 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51169 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 15:27:17 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 15:27:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 15:27:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:27:19 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 15:27:19 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 15:27:19 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 15:27:19 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2046 ms
+2024-06-05 15:27:19 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 15:27:19 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 15:27:19 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 15:27:20 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [1.0 sec].
+2024-06-05 15:27:21 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:27:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 15:27:21 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 6.451 seconds (JVM running for 7.937)
+2024-06-05 15:27:28 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 15:27:28 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 15:27:28 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-05 15:29:08 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51180 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 15:29:08 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 15:29:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 15:29:09 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:29:09 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 15:29:09 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 15:29:10 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 15:29:10 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1543 ms
+2024-06-05 15:29:10 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 15:29:10 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 15:29:10 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 15:29:11 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 15:29:12 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:29:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 15:29:12 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.079 seconds (JVM running for 5.864)
+2024-06-05 15:31:10 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 15:31:10 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 15:31:10 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 41 ms
+2024-06-05 15:31:42 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51213 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 15:31:42 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 15:31:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 15:31:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:31:44 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 15:31:44 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 15:31:44 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 15:31:44 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2075 ms
+2024-06-05 15:31:44 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 15:31:44 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 15:31:44 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 15:31:45 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.9 sec].
+2024-06-05 15:31:46 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:31:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 15:31:46 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.783 seconds (JVM running for 6.592)
+2024-06-05 15:32:16 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 15:32:16 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 15:32:16 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-06-05 15:32:53 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51222 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 15:32:53 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 15:32:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 15:32:54 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:32:54 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 15:32:54 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 15:32:54 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 15:32:54 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1646 ms
+2024-06-05 15:32:55 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 15:32:55 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 15:32:55 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 15:32:55 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 15:32:56 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:32:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 15:32:57 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.13 seconds (JVM running for 5.954)
+2024-06-05 15:33:00 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 15:33:00 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 15:33:00 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-05 15:33:31 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51232 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 15:33:31 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 15:33:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 15:33:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:33:33 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 15:33:33 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 15:33:33 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 15:33:33 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1769 ms
+2024-06-05 15:33:33 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 15:33:33 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 15:33:33 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 15:33:34 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [1.0 sec].
+2024-06-05 15:33:35 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:33:35 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 15:33:35 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.516 seconds (JVM running for 6.418)
+2024-06-05 15:33:40 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 15:33:40 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 15:33:40 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-05 15:41:39 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51284 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 15:41:39 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 15:41:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 15:41:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:41:41 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 15:41:41 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 15:41:41 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 15:41:41 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1556 ms
+2024-06-05 15:41:41 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 15:41:41 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 15:41:41 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 15:41:42 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 15:41:43 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:41:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 15:41:43 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.121 seconds (JVM running for 5.95)
+2024-06-05 15:41:58 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 15:41:58 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 15:41:58 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-05 15:42:49 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51297 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 15:42:49 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 15:42:50 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 15:42:50 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:42:50 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 15:42:50 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 15:42:51 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 15:42:51 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1875 ms
+2024-06-05 15:42:51 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 15:42:51 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 15:42:51 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 15:42:52 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 15:42:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:42:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 15:42:53 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.353 seconds (JVM running for 6.324)
+2024-06-05 15:43:01 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 15:43:01 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 15:43:01 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-05 15:43:48 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51303 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 15:43:48 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 15:43:50 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 15:43:50 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:43:50 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 15:43:50 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 15:43:50 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 15:43:50 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1770 ms
+2024-06-05 15:43:50 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 15:43:50 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 15:43:50 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 15:43:51 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 15:43:52 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:43:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 15:43:52 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.497 seconds (JVM running for 6.396)
+2024-06-05 15:44:04 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 15:44:04 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 15:44:04 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2024-06-05 15:46:34 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51324 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 15:46:34 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 15:46:36 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 15:46:36 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:46:36 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 15:46:36 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 15:46:36 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 15:46:36 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1498 ms
+2024-06-05 15:46:36 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 15:46:36 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 15:46:36 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 15:46:37 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 15:46:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:46:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 15:46:38 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.032 seconds (JVM running for 5.861)
+2024-06-05 15:46:44 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 15:46:44 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 15:46:44 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-05 15:53:38 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51399 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 15:53:38 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 15:53:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 15:53:39 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:53:39 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 15:53:39 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 15:53:39 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 15:53:39 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1546 ms
+2024-06-05 15:53:39 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 15:53:40 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 15:53:40 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 15:53:41 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [1.3 sec].
+2024-06-05 15:53:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:53:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 15:53:41 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.05 seconds (JVM running for 5.87)
+2024-06-05 15:53:48 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 15:53:48 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 15:53:48 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2024-06-05 15:54:30 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51412 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 15:54:30 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 15:54:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 15:54:32 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:54:32 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 15:54:32 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 15:54:32 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 15:54:32 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1744 ms
+2024-06-05 15:54:32 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 15:54:32 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 15:54:32 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 15:54:33 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 15:54:34 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:54:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 15:54:34 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.251 seconds (JVM running for 6.098)
+2024-06-05 15:54:38 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 15:54:38 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 15:54:38 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2024-06-05 15:58:43 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51475 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 15:58:43 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 15:58:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 15:58:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:58:44 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 15:58:44 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 15:58:45 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 15:58:45 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1697 ms
+2024-06-05 15:58:45 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 15:58:45 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 15:58:45 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 15:58:46 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 15:58:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:58:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 15:58:47 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.408 seconds (JVM running for 6.358)
+2024-06-05 15:59:01 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 15:59:01 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 15:59:01 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-05 15:59:38 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51485 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 15:59:38 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 15:59:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 15:59:39 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:59:39 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 15:59:39 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 15:59:39 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 15:59:39 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1476 ms
+2024-06-05 15:59:39 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 15:59:39 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 15:59:39 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 15:59:40 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 15:59:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 15:59:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 15:59:41 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.035 seconds (JVM running for 5.885)
+2024-06-05 15:59:48 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 15:59:48 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 15:59:48 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2024-06-05 16:00:20 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51497 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:00:20 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:00:22 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:00:22 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:00:22 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:00:22 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:00:22 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:00:22 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1495 ms
+2024-06-05 16:00:22 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:00:22 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:00:22 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:00:23 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 16:00:24 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:00:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:00:24 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.129 seconds (JVM running for 6.004)
+2024-06-05 16:00:45 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:00:45 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:00:45 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 32 ms
+2024-06-05 16:05:51 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51548 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:05:51 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:05:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:05:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:05:53 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:05:53 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:05:53 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:05:53 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1614 ms
+2024-06-05 16:05:53 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:05:53 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:05:53 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:05:54 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 16:05:55 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:05:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:05:55 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.052 seconds (JVM running for 5.885)
+2024-06-05 16:08:25 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51554 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:08:25 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:08:27 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:08:27 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:08:27 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:08:27 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:08:28 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:08:28 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2129 ms
+2024-06-05 16:08:28 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:08:28 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:08:28 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:08:29 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.7 sec].
+2024-06-05 16:08:30 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:08:30 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:08:30 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.621 seconds (JVM running for 6.696)
+2024-06-05 16:08:39 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:08:39 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:08:39 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2024-06-05 16:09:46 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51570 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:09:46 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:09:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:09:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:09:47 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:09:47 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:09:47 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:09:47 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1674 ms
+2024-06-05 16:09:48 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:09:48 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:09:48 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:09:48 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 16:09:49 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:09:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:09:50 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.291 seconds (JVM running for 6.18)
+2024-06-05 16:09:57 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:09:57 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:09:57 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2024-06-05 16:11:44 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51583 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:11:44 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:11:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:11:46 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:11:46 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:11:46 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:11:46 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:11:46 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1686 ms
+2024-06-05 16:11:46 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:11:46 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:11:46 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:11:47 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [1.1 sec].
+2024-06-05 16:11:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:11:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:11:48 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.539 seconds (JVM running for 6.427)
+2024-06-05 16:11:55 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:11:55 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:11:55 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2024-06-05 16:14:40 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51607 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:14:40 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:14:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:14:42 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:14:42 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:14:42 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:14:42 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:14:42 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1892 ms
+2024-06-05 16:14:42 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:14:42 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:14:42 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:14:43 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 16:14:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:14:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:14:44 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.745 seconds (JVM running for 6.704)
+2024-06-05 16:14:48 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:14:48 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:14:48 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-05 16:15:58 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51633 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:15:58 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:16:00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:16:00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:16:00 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:16:00 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:16:00 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:16:00 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1531 ms
+2024-06-05 16:16:00 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:16:00 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:16:00 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:16:01 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 16:16:01 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:16:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:16:02 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.921 seconds (JVM running for 7.058)
+2024-06-05 16:16:08 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:16:08 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:16:08 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 21 ms
+2024-06-05 16:18:03 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51650 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:18:03 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:18:05 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:18:05 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:18:05 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:18:05 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:18:05 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:18:05 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1506 ms
+2024-06-05 16:18:05 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:18:05 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:18:05 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:18:06 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 16:18:07 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:18:07 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:18:07 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 4.99 seconds (JVM running for 5.847)
+2024-06-05 16:18:15 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:18:15 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:18:15 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-05 16:19:49 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51664 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:19:49 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:19:51 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:19:51 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:19:51 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:19:51 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:19:51 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:19:51 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1702 ms
+2024-06-05 16:19:51 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:19:51 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:19:51 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:19:52 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 16:19:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:19:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:19:53 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.278 seconds (JVM running for 6.208)
+2024-06-05 16:19:59 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:19:59 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:19:59 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 131 ms
+2024-06-05 16:20:50 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51672 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:20:50 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:20:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:20:52 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:20:52 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:20:52 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:20:52 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:20:52 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1965 ms
+2024-06-05 16:20:52 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:20:52 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:20:52 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:20:53 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [1.0 sec].
+2024-06-05 16:20:54 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:20:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:20:54 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 6.235 seconds (JVM running for 8.006)
+2024-06-05 16:24:39 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51694 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:24:39 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:24:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:24:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:24:41 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:24:41 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:24:41 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:24:41 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2356 ms
+2024-06-05 16:24:42 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:24:42 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:24:42 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:24:43 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [1.1 sec].
+2024-06-05 16:24:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:24:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:24:44 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 7.513 seconds (JVM running for 9.611)
+2024-06-05 16:26:02 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51707 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:26:02 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:26:04 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:26:04 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:26:04 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:26:04 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:26:04 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:26:04 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1919 ms
+2024-06-05 16:26:04 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:26:04 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:26:04 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:26:05 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 16:26:06 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:26:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:26:06 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.55 seconds (JVM running for 6.493)
+2024-06-05 16:26:19 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:26:19 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:26:19 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2024-06-05 16:27:07 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51719 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:27:07 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:27:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:27:09 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:27:09 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:27:09 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:27:09 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:27:09 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1770 ms
+2024-06-05 16:27:09 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:27:09 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:27:09 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:27:10 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 16:27:11 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:27:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:27:11 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.381 seconds (JVM running for 6.424)
+2024-06-05 16:27:25 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:27:25 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:27:25 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2024-06-05 16:27:38 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51725 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:27:38 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:27:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:27:40 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:27:40 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:27:40 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:27:40 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:27:40 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1552 ms
+2024-06-05 16:27:40 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:27:40 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:27:40 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:27:41 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 16:27:42 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:27:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:27:42 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.161 seconds (JVM running for 6.067)
+2024-06-05 16:27:57 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:27:57 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:27:57 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-05 16:29:10 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51734 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:29:10 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:29:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:29:12 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:29:12 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:29:12 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:29:12 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:29:12 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1606 ms
+2024-06-05 16:29:12 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:29:12 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:29:12 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:29:13 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [1.0 sec].
+2024-06-05 16:29:14 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:29:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:29:14 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.508 seconds (JVM running for 6.395)
+2024-06-05 16:29:24 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:29:24 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:29:24 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-05 16:30:18 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51750 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:30:18 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:30:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:30:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:30:19 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:30:19 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:30:19 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:30:19 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1605 ms
+2024-06-05 16:30:19 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:30:19 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:30:19 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:30:20 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 16:30:21 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:30:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:30:21 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.12 seconds (JVM running for 6.042)
+2024-06-05 16:32:39 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:32:39 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:32:39 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-05 16:34:05 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51766 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:34:05 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:34:07 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:34:07 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:34:07 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:34:07 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:34:07 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:34:07 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1607 ms
+2024-06-05 16:34:07 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:34:07 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:34:07 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:34:08 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [1.0 sec].
+2024-06-05 16:34:10 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:34:10 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:34:10 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.574 seconds (JVM running for 6.61)
+2024-06-05 16:34:16 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:34:16 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:34:16 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-05 16:35:13 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51784 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:35:13 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:35:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:35:15 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:35:15 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:35:15 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:35:15 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:35:15 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1875 ms
+2024-06-05 16:35:15 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:35:15 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:35:15 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:35:16 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.9 sec].
+2024-06-05 16:35:17 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:35:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:35:17 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.795 seconds (JVM running for 6.619)
+2024-06-05 16:35:21 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:35:21 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:35:21 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 33 ms
+2024-06-05 16:37:00 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51796 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:37:00 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:37:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:37:02 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:37:02 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:37:02 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:37:02 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:37:02 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1697 ms
+2024-06-05 16:37:02 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:37:02 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:37:02 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:37:04 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [1.5 sec].
+2024-06-05 16:37:04 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:37:04 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:37:04 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.556 seconds (JVM running for 6.423)
+2024-06-05 16:37:13 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:37:13 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:37:13 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-06-05 16:38:10 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51809 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:38:10 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:38:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:38:12 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:38:12 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:38:12 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:38:12 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:38:12 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1730 ms
+2024-06-05 16:38:12 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:38:12 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:38:12 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:38:13 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [1.0 sec].
+2024-06-05 16:38:14 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:38:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:38:14 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.471 seconds (JVM running for 6.449)
+2024-06-05 16:38:30 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:38:30 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:38:30 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-05 16:41:43 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51830 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:41:43 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:41:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:41:45 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:41:45 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:41:45 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:41:45 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:41:45 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1670 ms
+2024-06-05 16:41:45 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:41:45 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:41:45 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:41:46 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [1.0 sec].
+2024-06-05 16:41:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:41:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:41:48 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.691 seconds (JVM running for 6.679)
+2024-06-05 16:41:52 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:41:52 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:41:52 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2024-06-05 16:43:58 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51846 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:43:58 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:43:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:43:59 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:43:59 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:43:59 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:43:59 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:43:59 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1595 ms
+2024-06-05 16:44:00 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:44:00 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:44:00 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:44:01 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 16:44:02 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:44:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:44:02 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.188 seconds (JVM running for 6.015)
+2024-06-05 16:44:50 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:44:50 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:44:50 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-05 16:46:31 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51856 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:46:31 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:46:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:46:32 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:46:32 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:46:32 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:46:32 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:46:32 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1502 ms
+2024-06-05 16:46:33 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:46:33 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:46:33 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:46:33 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 16:46:34 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:46:35 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:46:35 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.11 seconds (JVM running for 5.962)
+2024-06-05 16:46:45 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:46:45 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:46:45 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2024-06-05 16:47:28 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51871 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:47:28 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:47:30 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:47:30 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:47:30 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:47:30 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:47:30 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:47:30 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1660 ms
+2024-06-05 16:47:30 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:47:30 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:47:30 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:47:32 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [1.4 sec].
+2024-06-05 16:47:32 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:47:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:47:32 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.158 seconds (JVM running for 6.022)
+2024-06-05 16:47:41 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:47:41 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:47:41 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-05 16:47:49 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51880 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:47:49 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:47:51 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:47:51 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:47:51 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:47:51 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:47:51 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:47:51 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1851 ms
+2024-06-05 16:47:51 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:47:51 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:47:51 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:47:52 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [1.0 sec].
+2024-06-05 16:47:54 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:47:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:47:54 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 6.178 seconds (JVM running for 7.067)
+2024-06-05 16:48:34 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51885 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:48:34 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:48:35 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:48:35 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:48:35 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:48:35 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:48:36 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:48:36 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1458 ms
+2024-06-05 16:48:36 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:48:36 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:48:36 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:48:36 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.7 sec].
+2024-06-05 16:48:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:48:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:48:38 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 4.853 seconds (JVM running for 5.758)
+2024-06-05 16:49:02 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51888 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:49:02 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:49:03 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:49:03 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:49:03 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:49:03 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:49:03 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:49:03 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1566 ms
+2024-06-05 16:49:04 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:49:04 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:49:04 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:49:04 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 16:49:05 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:49:05 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:49:05 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.1 seconds (JVM running for 5.886)
+2024-06-05 16:49:10 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:49:10 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:49:10 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2024-06-05 16:51:41 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51900 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:51:41 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:51:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:51:42 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:51:42 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:51:42 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:51:42 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:51:42 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1444 ms
+2024-06-05 16:51:42 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:51:43 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:51:43 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:51:43 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.7 sec].
+2024-06-05 16:51:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:51:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:51:44 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 4.86 seconds (JVM running for 5.692)
+2024-06-05 16:51:50 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:51:50 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:51:50 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-05 16:53:29 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51922 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:53:29 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:53:30 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:53:30 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:53:30 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:53:30 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:53:31 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:53:31 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1597 ms
+2024-06-05 16:53:31 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:53:31 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:53:31 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:53:32 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 16:53:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:53:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:53:33 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.029 seconds (JVM running for 5.886)
+2024-06-05 16:53:40 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:53:40 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:53:40 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2024-06-05 16:58:04 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51957 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 16:58:04 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 16:58:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 16:58:06 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:58:06 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 16:58:06 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 16:58:06 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 16:58:06 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1531 ms
+2024-06-05 16:58:06 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 16:58:06 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 16:58:06 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 16:58:07 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [1.1 sec].
+2024-06-05 16:58:08 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 16:58:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 16:58:08 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 4.865 seconds (JVM running for 5.741)
+2024-06-05 16:58:15 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 16:58:15 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 16:58:15 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-05 17:02:32 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51981 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 17:02:32 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 17:02:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 17:02:34 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:02:34 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 17:02:34 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 17:02:34 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 17:02:34 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1580 ms
+2024-06-05 17:02:34 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 17:02:34 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 17:02:34 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 17:02:35 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.7 sec].
+2024-06-05 17:02:36 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:02:36 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 17:02:36 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.044 seconds (JVM running for 5.879)
+2024-06-05 17:02:42 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 17:02:42 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 17:02:42 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-06-05 17:04:07 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 51999 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 17:04:07 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 17:04:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 17:04:09 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:04:09 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 17:04:09 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 17:04:10 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 17:04:10 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2651 ms
+2024-06-05 17:04:10 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 17:04:10 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 17:04:10 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 17:04:12 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [1.2 sec].
+2024-06-05 17:04:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:04:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 17:04:13 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 7.519 seconds (JVM running for 8.521)
+2024-06-05 17:04:17 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 17:04:17 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 17:04:17 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-05 17:06:13 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 52015 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 17:06:13 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 17:06:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 17:06:15 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:06:15 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 17:06:15 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 17:06:15 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 17:06:15 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1585 ms
+2024-06-05 17:06:15 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 17:06:15 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 17:06:15 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 17:06:18 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [3.0 sec].
+2024-06-05 17:06:21 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:06:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 17:06:21 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 8.927 seconds (JVM running for 9.749)
+2024-06-05 17:06:22 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 17:06:22 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 17:06:22 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-05 17:08:58 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 52036 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 17:08:58 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 17:09:00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 17:09:00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:09:00 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 17:09:00 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 17:09:00 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 17:09:00 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1779 ms
+2024-06-05 17:09:00 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 17:09:00 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 17:09:00 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 17:09:01 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.7 sec].
+2024-06-05 17:09:02 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:09:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 17:09:02 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.33 seconds (JVM running for 6.198)
+2024-06-05 17:09:08 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 17:09:08 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 17:09:08 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-05 17:09:53 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 52049 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 17:09:53 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 17:09:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 17:09:55 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:09:55 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 17:09:55 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 17:09:55 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 17:09:55 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1805 ms
+2024-06-05 17:09:55 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 17:09:55 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 17:09:55 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 17:09:56 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 17:09:56 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:09:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 17:09:57 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.348 seconds (JVM running for 6.198)
+2024-06-05 17:10:10 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 17:10:10 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 17:10:10 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2024-06-05 17:11:51 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 52068 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 17:11:51 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 17:11:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 17:11:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:11:53 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 17:11:53 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 17:11:53 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 17:11:53 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1594 ms
+2024-06-05 17:11:53 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 17:11:53 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 17:11:53 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 17:11:54 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 17:11:55 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:11:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 17:11:55 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.094 seconds (JVM running for 5.885)
+2024-06-05 17:12:03 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 17:12:03 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 17:12:03 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2024-06-05 17:12:33 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 52079 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 17:12:33 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 17:12:35 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 17:12:35 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:12:35 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 17:12:35 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 17:12:35 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 17:12:35 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1667 ms
+2024-06-05 17:12:35 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 17:12:35 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 17:12:35 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 17:12:36 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.7 sec].
+2024-06-05 17:12:37 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:12:37 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 17:12:37 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.119 seconds (JVM running for 5.995)
+2024-06-05 17:12:43 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 17:12:43 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 17:12:43 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-06-05 17:13:53 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 52100 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 17:13:53 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 17:13:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 17:13:55 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:13:55 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 17:13:55 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 17:13:55 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 17:13:55 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1548 ms
+2024-06-05 17:13:55 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 17:13:55 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 17:13:55 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 17:13:56 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 17:13:57 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:13:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 17:13:57 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.074 seconds (JVM running for 5.913)
+2024-06-05 17:14:03 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 17:14:03 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 17:14:03 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-05 17:16:06 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 52119 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 17:16:06 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 17:16:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 17:16:08 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:16:08 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 17:16:08 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 17:16:08 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 17:16:08 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1494 ms
+2024-06-05 17:16:08 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 17:16:08 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 17:16:08 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 17:16:09 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [1.0 sec].
+2024-06-05 17:16:10 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:16:10 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 17:16:10 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 4.75 seconds (JVM running for 5.76)
+2024-06-05 17:16:13 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 17:16:13 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 17:16:13 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2024-06-05 17:20:28 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 52136 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 17:20:28 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 17:20:29 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 17:20:29 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:20:29 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 17:20:29 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 17:20:29 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 17:20:29 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1600 ms
+2024-06-05 17:20:30 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 17:20:30 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 17:20:30 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 17:20:31 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 17:20:32 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:20:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 17:20:32 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.38 seconds (JVM running for 6.198)
+2024-06-05 17:20:37 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 17:20:37 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 17:20:37 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2024-06-05 17:22:17 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 52151 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 17:22:17 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 17:22:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 17:22:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:22:19 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 17:22:19 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 17:22:19 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 17:22:19 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1887 ms
+2024-06-05 17:22:19 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 17:22:19 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 17:22:19 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 17:22:20 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.7 sec].
+2024-06-05 17:22:21 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:22:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 17:22:21 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.573 seconds (JVM running for 6.496)
+2024-06-05 17:22:29 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 17:22:29 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 17:22:29 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2024-06-05 17:26:53 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 52174 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 17:26:53 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 17:26:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 17:26:54 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:26:54 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 17:26:54 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 17:26:55 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 17:26:55 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1818 ms
+2024-06-05 17:26:55 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 17:26:55 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 17:26:55 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 17:26:57 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [2.6 sec].
+2024-06-05 17:26:59 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:26:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 17:26:59 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 9.206 seconds (JVM running for 11.281)
+2024-06-05 17:27:01 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 17:27:01 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 17:27:01 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-05 17:28:23 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 52192 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 17:28:23 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 17:28:25 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 17:28:25 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:28:25 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 17:28:25 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 17:28:25 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 17:28:25 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1694 ms
+2024-06-05 17:28:25 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 17:28:25 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 17:28:25 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 17:28:26 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.9 sec].
+2024-06-05 17:28:27 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:28:27 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 17:28:27 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 5.907 seconds (JVM running for 6.992)
+2024-06-05 17:28:58 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 17:28:58 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 17:28:58 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 21 ms
+2024-06-05 17:30:10 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 52204 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 17:30:10 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 17:30:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 17:30:11 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:30:11 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 17:30:11 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 17:30:11 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 17:30:11 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1539 ms
+2024-06-05 17:30:12 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 17:30:12 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 17:30:12 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 17:30:12 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 17:30:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:30:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 17:30:13 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 4.995 seconds (JVM running for 5.792)
+2024-06-05 17:30:18 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 17:30:18 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 17:30:18 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-05 17:33:04 [main] INFO  com.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_402 on MacBooks-MBP.lan with PID 52221 (/Users/macbookpro/Documents/screenplay_analytics/target/classes started by macbookpro in /Users/macbookpro/Documents/screenplay_analytics)
+2024-06-05 17:33:04 [main] INFO  com.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-05 17:33:05 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2024-06-05 17:33:05 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:33:05 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-05 17:33:05 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-06-05 17:33:06 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-05 17:33:06 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1689 ms
+2024-06-05 17:33:06 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+2024-06-05 17:33:06 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+2024-06-05 17:33:06 [main] INFO  e.s.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+2024-06-05 17:33:07 [main] INFO  e.s.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.8 sec].
+2024-06-05 17:33:09 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-06-05 17:33:10 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2024-06-05 17:33:10 [main] INFO  com.demo.DemoApplication - Started DemoApplication in 7.057 seconds (JVM running for 7.829)
+2024-06-05 17:33:11 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05 17:33:11 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-05 17:33:11 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
